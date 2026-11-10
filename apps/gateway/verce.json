@@ -1,0 +1,29 @@
+
+{
+  "rewrites": [
+    {
+      "source": "/data",
+      "destination": "https://porfolio-v5.vercel.app/"
+    },
+    {
+      "source": "/data/:path*",
+      "destination": "https://porfolio-v5.vercel.app//:path*"
+    },
+    {
+      "source": "/game",
+      "destination": "https://game.ayazmirza54.in/"
+    },
+    {
+      "source": "/game/:path*",
+      "destination": "https://game.ayazmirza54.in/:path*"
+    },
+    {
+      "source": "/design",
+      "destination": "https://ayazmirza.dev/"
+    },
+    {
+      "source": "/design/:path*",
+      "destination": "https://ayazmirza.dev/:path*"
+    }
+  ]
+}

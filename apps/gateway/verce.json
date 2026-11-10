@@ -7,7 +7,7 @@
     },
     {
       "source": "/data/:path*",
-      "destination": "https://porfolio-v5.vercel.app//:path*"
+      "destination": "https://porfolio-v5.vercel.app/:path*"
     },
     {
       "source": "/game",
